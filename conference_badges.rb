@@ -12,7 +12,6 @@ end
 def assign_room(name)
  room = rand(1..7)
  
- 
  puts "Hello #{name}! You'll be assigned to room #{room}"
 end
 
