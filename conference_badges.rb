@@ -1,11 +1,13 @@
 # Write your code here.
 name=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def batch_badge_creator(name)
-  name.each {|element} puts " Hello, my name is #{element.to_s}."}
-return batch_badge_creator
+def badge_maker(name)
+  puts "Hello, my name is #{name.first}"
 end
 
+def batch_badge_creator(name)
+  
+end
 
 def assign_room(name)
  room = rand(1..7)
@@ -15,6 +17,6 @@ def assign_room(name)
 end
 
 def printer
-  batch_badge_creator
+  badge_maker
   assign_rooms
 end
