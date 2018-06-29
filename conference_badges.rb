@@ -2,7 +2,8 @@
 name=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(name)
-  puts "Hello, my name is #{name.first}"
+  speaker=name.first
+  puts "Hello, my name is #{speaker}"
 end
 
 def batch_badge_creator(name)
@@ -10,7 +11,7 @@ def batch_badge_creator(name)
 end
 
 def assign_room(name)
- room = rand(1..7)
+ room=
  
  puts "Hello #{name}! You'll be assigned to room #{room}"
 end
