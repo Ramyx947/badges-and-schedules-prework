@@ -1,7 +1,7 @@
 # Write your code here.
 speakers=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def batch_badge_creator(speakers)
-  puts "Hello, my name is #{speaker.pop}."
+  puts "Hello, my name is #{speakers.pop}."
 end
 
 def assign_room(speakers)
