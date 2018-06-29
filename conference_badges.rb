@@ -1,14 +1,14 @@
 # Write your code here.
-speakers=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-def batch_badge_creator(speakers)
-  puts "Hello, my name is #{speakers.pop}."
+name=["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+def batch_badge_creator(name)
+  puts "Hello, my name is #{name.pop}."
 end
 
-def assign_room(speakers)
+def assign_room(name)
  room = rand(1..7)
  
  
- puts "Hello #{speaker}! You'll be assigned to room #{room}"
+ puts "Hello #{name}! You'll be assigned to room #{room}"
 end
 
 def printer
